@@ -1,0 +1,150 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  background-color: #295939;
+  height: 100%;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  text-align: left;
+  padding-left: 6.5%;
+}
+
+h3 {
+  text-align: center;
+  padding: 1% 0 1% 0;
+}
+
+p {
+  text-align: left;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 6%;
+}
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: 0 0 4.5 7.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+    margin-right: auto;
+    font-size: 3.5rem;
+    font-weight: 30;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+
+  #image {
+    width: 20%;
+    border-radius: 100%;
+  }
+
+  .bg-text {
+    text-align: left;
+    font-family: "ubuntu";
+    font-size: 7em;
+    color: #fff;
+    margin-top: 5%;
+    position: absolute;
+    line-height: 1.25rem;
+    z-index: 100;
+    letter-spacing: 2px;
+    display: block;
+    padding: 7.5 7.5 0 15rem;
+ }
+  
+  #img-caption {
+    text-align: justify;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    padding-left: 10%;
+  }
+
+  
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+  .tribute {
+    background-color: aliceblue;
+    padding-top: 3.5%;
+    text-align: center;
+  }
+
+    #tribute-info {
+      text-align: left;
+      line-height: 2rem;
+      padding: 3% 0 3% 7%;
+    }
+    
+    #headline {
+      text-align: left;
+      padding-left: 2%;
+      line-height: 1.5rem;
+    }
+
+    .A {
+      background-color:#295939;
+      padding: 5% 6.5% 5% 6.5%;
+      line-height: 2rem;
+      text-align: justify;
+      color: #fff;
+    }
+    
+  
+  .B {
+    background-color: #fff;
+    padding: 5% 6.5% 5% 6.5%;
+    line-height: 2rem;
+    text-align: justify;
+  }
+  .C {
+    background-color:#295939;
+    padding: 5% 6.5% 5% 6.5%;
+    line-height: 2rem;
+    text-align: justify;
+    color: #fff;
+  }
+
+  .social-icon {
+    margin: 20px 10px;
+  }
+
+  #footer {
+    background-color:  aliceblue;
+    padding:3% 0 3% 0;
+  }
+  
+  @media (max-width: 1028px) {
+{
